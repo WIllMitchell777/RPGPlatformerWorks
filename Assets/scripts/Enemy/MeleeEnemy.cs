@@ -5,7 +5,7 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private float colliderDistance;
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
@@ -65,5 +65,7 @@ public class MeleeEnemy : MonoBehaviour
             playerHealth.TakeDamage(damage);
         }
     }
+
+
 }
 

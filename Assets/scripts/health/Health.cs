@@ -96,5 +96,12 @@ public class Health : MonoBehaviour
             component.enabled = true;
     }
 
+    public void IncreaseMaxHealth(int amount)
+    {
+        startingHealth += amount;
+        currentHealth += amount;
+        Debug.Log("New max health: " + currentHealth);
+    }
+
 
 }
