@@ -11,7 +11,7 @@ public class PlayerLadderClimb : MonoBehaviour
 
     private void Start()
     {
-        // Save the player�s normal gravity
+        
         defaultGravity = rb.gravityScale;
     }
 
@@ -30,8 +30,8 @@ public class PlayerLadderClimb : MonoBehaviour
         if (collision.CompareTag("ladder"))
         {
             isClimbing = true;
-            rb.gravityScale = 0f; // Turn off gravity while climbing
-            rb.linearVelocity = Vector2.zero; // Prevent sliding
+            rb.gravityScale = 0f; 
+            rb.linearVelocity = Vector2.zero; 
         }
     }
 
@@ -40,7 +40,7 @@ public class PlayerLadderClimb : MonoBehaviour
         if (collision.CompareTag("ladder"))
         {
             isClimbing = false;
-            rb.gravityScale = defaultGravity; // Restore gravity
+            rb.gravityScale = defaultGravity; 
         }
     }
 }

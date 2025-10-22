@@ -56,7 +56,7 @@ public class WizardUpgrade : MonoBehaviour
     {
         if (playerHealth != null)
         {
-            playerHealth.IncreaseMaxHealth(1); // or whatever amount
+            playerHealth.IncreaseMaxHealth(1); 
             Debug.Log("Wizard increased health!");
         }
         else
@@ -71,7 +71,7 @@ public class WizardUpgrade : MonoBehaviour
     {
         if (playerAttack != null)
         {
-            playerAttack.IncreaseDamage(1); // or your chosen amount
+            playerAttack.IncreaseDamage(1); 
             Debug.Log("Wizard increased damage!");
         }
         else
