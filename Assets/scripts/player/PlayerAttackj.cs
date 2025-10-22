@@ -114,4 +114,10 @@ public class PlayerAttackj : MonoBehaviour
     }
 
     #endregion
+
+    public void IncreaseDamage(int amount)
+    {
+        damageAmount += amount;
+        Debug.Log("New damage: " + damageAmount);
+    }
 }

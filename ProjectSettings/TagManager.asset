@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Checkpoint
   - Spawnpoint
+  - ladder
+  - platform
   layers:
   - Default
   - TransparentFX
@@ -18,9 +20,9 @@ TagManager:
   - groundLayer
   - Player
   - Attackable
-  - 
-  - 
-  - 
+  - ladder
+  - wizard
+  - platform
   - 
   - 
   - 
