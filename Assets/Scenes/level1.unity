@@ -685,17 +685,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Size.y
+      value: 1.8536739
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18798065
+      objectReference: {fileID: 0}
     - target: {fileID: 3337928576166623069, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_Name
       value: Checkpoint (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 94.34
+      value: 94.47
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.48
+      value: 6.29
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2269,17 +2281,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6808388
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378776141833381038, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.101563096
+      objectReference: {fileID: 0}
     - target: {fileID: 3337928576166623069, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.29842
+      value: 29.398
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.725
+      value: -0.854
       objectReference: {fileID: 0}
     - target: {fileID: 5154799201976617787, guid: 2bf1676ae7167dd428e0a95a0ecce32a, type: 3}
       propertyPath: m_LocalPosition.z
