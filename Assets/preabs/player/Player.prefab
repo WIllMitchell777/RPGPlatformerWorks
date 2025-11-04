@@ -190,6 +190,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   speed: 7
+  jumpSound: {fileID: 8300000, guid: fcdede58085f02f4490995f4f4b0aa89, type: 3}
 --- !u!95 &3621305359460958347
 Animator:
   serializedVersion: 7
@@ -231,6 +232,7 @@ MonoBehaviour:
     m_Bits: 256
   damageAmount: 1
   timeBtwAttacks: 0.5
+  attackSound: {fileID: 8300000, guid: 2541d5039e245cc49b8f27f66bfd6929, type: 3}
 --- !u!114 &683782120030824011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +249,8 @@ MonoBehaviour:
   iFramesDuration: 1
   numberOfFlashes: 1
   components: []
+  deathSound: {fileID: 8300000, guid: 79dee510081a8b7438082da21abb13dc, type: 3}
+  hurtSound: {fileID: 8300000, guid: 2b36f7afa0375ef4aa9f2e8e57a9f46b, type: 3}
 --- !u!114 &6286378735735972599
 MonoBehaviour:
   m_ObjectHideFlags: 0

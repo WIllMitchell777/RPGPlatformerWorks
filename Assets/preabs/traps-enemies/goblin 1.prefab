@@ -353,6 +353,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
+  attackSound: {fileID: 0}
 --- !u!1 &4495990265531763925
 GameObject:
   m_ObjectHideFlags: 0

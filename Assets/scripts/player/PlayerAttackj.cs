@@ -11,6 +11,7 @@ public class PlayerAttackj : MonoBehaviour
     [SerializeField] private LayerMask attackableLayer;
     [SerializeField] private float damageAmount = 1f;
     [SerializeField] private float timeBtwAttacks = 0.15f;
+    [SerializeField] private AudioClip attackSound;
 
     public bool ShouldBeDamaging {  get; private set; } = false;
 
@@ -36,6 +37,7 @@ public class PlayerAttackj : MonoBehaviour
 
             //Attack();
             anim.SetTrigger("attack");
+            SoundManager.instance.PlaySound(attackSound);
         }
 
         attackTimeCounter += Time.deltaTime;
