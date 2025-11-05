@@ -22,6 +22,7 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
+
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();

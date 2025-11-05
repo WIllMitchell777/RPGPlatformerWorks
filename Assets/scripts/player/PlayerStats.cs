@@ -5,6 +5,7 @@ public class PlayerStats : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public int damage = 10;
+    private static PlayerStats instance;
 
     void Awake()
     {
