@@ -7,6 +7,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void Update()
     {
+
         if (canInteract && Input.GetKeyDown(KeyCode.E))
         {
             currentWizard.OpenChoicePanel();

@@ -7,6 +7,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private void Awake()
     {
+
         playerHealth = GetComponent<Health>();
         // Optionally set an initial spawn point
         currentCheckpointPosition = transform.position;

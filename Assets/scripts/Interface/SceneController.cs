@@ -5,12 +5,15 @@ public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
 
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            
+
         }
         else
         {
@@ -21,6 +24,7 @@ public class SceneController : MonoBehaviour
     public void NextLevel1()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
 

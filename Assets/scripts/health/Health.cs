@@ -25,6 +25,8 @@ public class Health : MonoBehaviour
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
+
+        
     }
 
     public void TakeDamage(float _damage)

@@ -11,6 +11,7 @@ public class PlayerLadderClimb : MonoBehaviour
 
     private void Start()
     {
+
         
         defaultGravity = rb.gravityScale;
     }

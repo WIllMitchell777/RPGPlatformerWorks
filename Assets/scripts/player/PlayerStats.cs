@@ -8,7 +8,9 @@ public class PlayerStats : MonoBehaviour
 
     void Awake()
     {
+
         currentHealth = maxHealth;
+        
     }
 
     public void IncreaseMaxHealth(int amount)
@@ -21,5 +23,7 @@ public class PlayerStats : MonoBehaviour
     {
         damage += amount;
     }
+
+
 }
 

@@ -25,6 +25,7 @@ public class PlayerAttackj : MonoBehaviour
 
     private void Start()
     {
+
         anim = GetComponent<Animator>();
 
         attackTimeCounter = timeBtwAttacks;
