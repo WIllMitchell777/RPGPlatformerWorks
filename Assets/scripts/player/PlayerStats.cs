@@ -11,6 +11,7 @@ public class PlayerStats : MonoBehaviour
     {
 
         currentHealth = maxHealth;
+        DontDestroyOnLoad(gameObject);
         
     }
 
@@ -18,6 +19,8 @@ public class PlayerStats : MonoBehaviour
     {
         maxHealth += amount;
         currentHealth += amount;  // optionally heal too
+
+
     }
 
     public void IncreaseDamage(int amount)
