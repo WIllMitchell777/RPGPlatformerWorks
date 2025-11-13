@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         Anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+
+        
     }
 
     private void Update()
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
         Anim.SetTrigger("jump");
+        
         
     }
 

@@ -21,6 +21,12 @@ public class WizardUpgrade : MonoBehaviour
 
         healthButton.onClick.AddListener(OnHealthClicked);
         damageButton.onClick.AddListener(OnDamageClicked);
+
+        ParticleSystem jumppart = GetComponent<ParticleSystem>();
+        
+        jumppart.Play();
+        Destroy(gameObject, jumppart.main.duration);
+
     }
 
     void Update()

@@ -1937,10 +1937,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3268024007266197726, guid: 8e34a33faeb88384aa604b9bbebc9bec, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8331776578432398630, guid: 8e34a33faeb88384aa604b9bbebc9bec, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.14
@@ -28056,7 +28052,8 @@ EdgeCollider2D:
   - {x: 10.939099, y: -3.928267}
   - {x: 13.198825, y: -1.8164563}
   - {x: 32.98485, y: -1.8347194}
-  - {x: 32.936474, y: -4.995555}
+  - {x: 32.996967, y: -9.109033}
+  - {x: 35.001648, y: -9.112559}
   - {x: 34.856464, y: -5.0716715}
   - {x: 35.007957, y: -2.8098693}
   - {x: 35.24995, y: -2.2784607}

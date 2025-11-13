@@ -3258,18 +3258,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 1201772032}
     m_Modifications:
     - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.939823
       objectReference: {fileID: 0}
@@ -3879,7 +3867,8 @@ EdgeCollider2D:
   - {x: 45.832905, y: -13.448891}
   - {x: 46.284782, y: -13.964079}
   - {x: 48.040554, y: -13.996447}
-  - {x: 48.0579, y: -6.8177032}
+  - {x: 48.011963, y: -7.3230257}
+  - {x: 48.4116, y: -7.034057}
   - {x: 62.1968, y: -6.8280134}
   - {x: 65.9531, y: -6.9125032}
   - {x: 65.95827, y: -11.984261}
@@ -4121,8 +4110,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 62.055992, y: -0.9499564}
-  - {x: 62.041534, y: -0.040182948}
+  - {x: 62.013588, y: -0.97964036}
+  - {x: 62.011852, y: -0.40487197}
+  - {x: 62.302185, y: -0.12861593}
+  - {x: 62.50916, y: 0.03967321}
   - {x: 80.98004, y: 0.033604622}
   - {x: 80.95219, y: 7.919577}
   - {x: 98.9323, y: 7.9176817}
@@ -4858,18 +4849,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 1201772032}
     m_Modifications:
     - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3374148708000596905, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4548254
       objectReference: {fileID: 0}
@@ -4912,10 +4891,6 @@ PrefabInstance:
     - target: {fileID: 5497691487210211767, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
       propertyPath: m_Name
       value: Wizard
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361148537993209819, guid: 9c851535e3bb3d14d8d74f68ca13cc87, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5139,11 +5114,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331776578432398630, guid: 8e34a33faeb88384aa604b9bbebc9bec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.93
+      value: 201.4
       objectReference: {fileID: 0}
     - target: {fileID: 8331776578432398630, guid: 8e34a33faeb88384aa604b9bbebc9bec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: -10.8
       objectReference: {fileID: 0}
     - target: {fileID: 8331776578432398630, guid: 8e34a33faeb88384aa604b9bbebc9bec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8099,8 +8074,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 146101585
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
